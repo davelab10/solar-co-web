@@ -1,0 +1,373 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="The Solar Co. designs residential solar systems around your home, roof and energy use."
+    />
+    <title>The Solar Co. | Solar, designed around your home.</title>
+    <script>document.documentElement.classList.add('js');</script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a class="brand" href="#home" aria-label="The Solar Co. home">
+          <img src="assets/brand/solar-co-logo-transparent.png" alt="The Solar Co." />
+        </a>
+
+        <nav class="desktop-nav" aria-label="Primary navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#testimonials">Testimonials</a>
+        </nav>
+
+        <a class="button button--small header-cta" href="#quote">Get a solar quote</a>
+
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <span>Menu</span>
+          <span class="menu-lines" aria-hidden="true"><i></i><i></i></span>
+        </button>
+      </div>
+
+      <div class="mobile-menu" id="mobile-menu" hidden>
+        <nav class="container mobile-nav" aria-label="Mobile navigation">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#testimonials">Testimonials</a>
+          <a class="mobile-quote-link" href="#quote">Get a solar quote</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="container hero-copy-inner">
+            <p class="eyebrow hero-eyebrow">Solar for New Zealand homes</p>
+            <h1 id="hero-title">Solar, designed<br /><em>around your home.</em></h1>
+            <p class="hero-intro">
+              Your home, roof and energy use are unique. Your solar system should be too. We design around how you live, what your home can generate, and what you want solar to do for you.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#quote">Get a solar quote</a>
+              <a class="text-link" href="#system">See how solar works</a>
+            </div>
+            <p class="hero-microcopy">Start with your home. We'll take it from there.</p>
+          </div>
+          <svg class="hero-sun" viewBox="0 0 180 180" aria-hidden="true">
+            <g fill="none" stroke="currentColor" stroke-linecap="round">
+              <path d="M32 90a58 58 0 0 1 116 0" stroke-width="1" opacity=".25" />
+              <path d="M43 90a47 47 0 0 1 94 0" stroke-width="1" opacity=".35" />
+            </g>
+            <g fill="currentColor">
+              <circle cx="38" cy="90" r="2" /><circle cx="43" cy="73" r="3" />
+              <circle cx="51" cy="58" r="4" /><circle cx="63" cy="45" r="5" />
+              <circle cx="78" cy="36" r="6" /><circle cx="96" cy="31" r="7" />
+              <circle cx="116" cy="36" r="6" /><circle cx="131" cy="45" r="5" />
+              <circle cx="143" cy="58" r="4" /><circle cx="151" cy="73" r="3" />
+            </g>
+          </svg>
+        </div>
+        <figure class="hero-image">
+          <img
+            src="assets/images/hero-candidates/hero-hillside.jpg"
+            alt="Solar panels integrated into the roof of a residential home"
+            fetchpriority="high"
+          />
+          <figcaption>Home first. Solar, integrated.</figcaption>
+        </figure>
+      </section>
+
+      <section class="home-section section-pad" id="about" aria-labelledby="home-title">
+        <div class="container">
+          <div class="section-intro section-intro--split reveal">
+            <div>
+              <p class="chapter">01 / Your home</p>
+              <h2 id="home-title">No two homes use energy the same way.<br /><em>Your solar system shouldn't either.</em></h2>
+            </div>
+            <div class="section-intro__aside">
+              <p>
+                Good solar starts with understanding the home it belongs to. We look at your roof, sunlight, shading and energy use before deciding what belongs up there.
+              </p>
+              <p class="supporting-label">Designed around what's already there</p>
+            </div>
+          </div>
+
+          <div class="roof-layout">
+            <figure class="roof-figure reveal">
+              <img
+                src="assets/images/roof-assessment-aerial.jpg"
+                alt="Aerial view of a solar-equipped home set into a rocky landscape"
+                loading="lazy"
+              />
+              <div class="roof-marker roof-marker--orientation"><span></span>Roof orientation</div>
+              <div class="roof-marker roof-marker--sun"><span></span>Sun exposure</div>
+              <div class="roof-marker roof-marker--shade"><span></span>Shading</div>
+              <div class="roof-marker roof-marker--area"><span></span>Available area</div>
+              <figcaption>Roof / sunlight / home</figcaption>
+            </figure>
+            <div class="roof-statement reveal">
+              <span class="line-mark" aria-hidden="true"></span>
+              <p>The goal isn't more panels. It's the right system for your home.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="system-section section-pad" id="system" aria-labelledby="system-title">
+        <div class="container">
+          <div class="system-header reveal">
+            <p class="chapter chapter--light">02 / The system</p>
+            <div class="system-header__copy">
+              <h2 id="system-title">Make your own power.<br /><em>Use it where it matters.</em></h2>
+              <p>
+                Solar turns daylight into electricity your home can use. Add a battery and excess energy can be stored for later, while your grid connection remains there when you need it.
+              </p>
+            </div>
+          </div>
+
+          <div class="energy-diagram" aria-label="Solar energy flow from the sun through the panels, inverter and home, with battery storage and grid connection">
+            <svg class="energy-svg energy-svg--desktop" viewBox="0 0 1080 70" role="img" aria-label="Horizontal solar energy flow diagram">
+              <path class="energy-track" d="M70 24H1010" />
+              <path class="energy-track energy-track--secondary" d="M804 48H1010" />
+              <circle class="energy-pulse energy-pulse--one" r="6" cy="24"><animate attributeName="cx" values="70;1010;70" dur="8s" repeatCount="indefinite" /></circle>
+              <circle class="energy-pulse energy-pulse--two" r="4" cy="48"><animate attributeName="cx" values="1010;804;1010" dur="5s" repeatCount="indefinite" /></circle>
+              <path class="energy-arrow" d="m995 17 15 7-15 7" />
+              <path class="energy-arrow" d="m819 41-15 7 15 7" />
+            </svg>
+            <svg class="energy-svg energy-svg--mobile" viewBox="0 0 80 780" role="img" aria-label="Vertical solar energy flow diagram">
+              <path class="energy-track" d="M40 38V742" />
+              <circle class="energy-pulse" r="5" cx="40"><animate attributeName="cy" values="38;742;38" dur="8s" repeatCount="indefinite" /></circle>
+              <path class="energy-arrow" d="m33 728 7 15 7-15" />
+            </svg>
+            <div class="energy-nodes">
+              <article class="energy-node energy-node--sun">
+                <div class="energy-node__mark sun-mark" aria-hidden="true"><span></span><span></span><span></span><span></span><b></b></div>
+                <h3>Sun</h3>
+                <p>Daylight reaches your solar panels.</p>
+              </article>
+              <article class="energy-node">
+                <div class="energy-node__mark panel-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+                <h3>Panels</h3>
+                <p>Panels convert sunlight into electricity.</p>
+              </article>
+              <article class="energy-node">
+                <div class="energy-node__mark inverter-mark" aria-hidden="true"><span></span><span></span></div>
+                <h3>Inverter</h3>
+                <p>The inverter turns that energy into power your home can use.</p>
+              </article>
+              <article class="energy-node energy-node--home">
+                <div class="energy-node__mark home-mark" aria-hidden="true"><span></span><span></span></div>
+                <h3>Home</h3>
+                <p>Your home uses solar energy as it's generated.</p>
+              </article>
+              <article class="energy-node energy-node--battery">
+                <div class="energy-node__mark battery-mark" aria-hidden="true"><span></span></div>
+                <h3>Battery</h3>
+                <p>Excess energy can be stored for later use.</p>
+              </article>
+              <article class="energy-node energy-node--grid">
+                <div class="energy-node__mark grid-mark" aria-hidden="true"><span></span><span></span></div>
+                <h3>Grid</h3>
+                <p>Depending on your system, energy can move between your home and the grid when required.</p>
+              </article>
+            </div>
+          </div>
+          <p class="system-closing">Generate. Use. Store. Stay connected.</p>
+        </div>
+      </section>
+
+      <section class="services-section section-pad" id="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="services-heading reveal">
+            <p class="chapter">03 / What we design</p>
+            <div>
+              <h2 id="services-title">One home.<br /><em>One energy plan.</em></h2>
+              <p>The right setup depends on what you want from solar today and how your energy needs may change tomorrow.</p>
+            </div>
+          </div>
+
+          <article class="service-feature reveal">
+            <figure>
+              <img src="assets/images/service-solar-home.jpg" alt="A contemporary residential home with solar panels on its roof" loading="lazy" />
+              <figcaption>01 / Solar</figcaption>
+            </figure>
+            <div class="service-feature__copy">
+              <p class="service-index">01</p>
+              <h3>Solar</h3>
+              <p>A solar system designed around your roof, your energy use and the conditions at your home.</p>
+              <a class="text-link" href="#quote">Explore solar</a>
+            </div>
+          </article>
+
+          <div class="service-list">
+            <article class="service-row reveal">
+              <p class="service-index">02</p>
+              <div><h3>Battery</h3><p>Store more of the energy your panels generate and use it when it makes sense for your household.</p></div>
+              <a class="text-link" href="#quote">Explore battery storage</a>
+            </article>
+            <article class="service-row reveal">
+              <p class="service-index">03</p>
+              <div><h3>Energy design</h3><p>Bring the pieces together into a system that works as one, rather than a collection of products on a roof.</p></div>
+              <a class="text-link" href="#quote">Explore system design</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="residential-section" aria-labelledby="residential-title">
+        <div class="residential-image">
+          <img src="assets/images/nz-home-lake-tekapo.jpg" alt="A modern home in a New Zealand landscape" loading="lazy" />
+        </div>
+        <div class="residential-copy container reveal">
+          <p class="eyebrow">Power, closer to home</p>
+          <h2 id="residential-title">A home powered<br /><em>differently.</em></h2>
+          <p>Generate electricity where you use it. Use solar power through the day, store excess energy when your system includes a battery, and draw from the grid when you need to.</p>
+          <p class="residential-closing">Your roof becomes part of how your home works.</p>
+        </div>
+      </section>
+
+      <section class="why-section section-pad" aria-labelledby="why-title">
+        <div class="container">
+          <div class="why-heading reveal">
+            <p class="eyebrow">Why The Solar Co.</p>
+            <h2 id="why-title">Start with the home.<br /><em>Not the hardware.</em></h2>
+            <p>Solar isn't one-size-fits-all. We believe the system should follow the needs of the home, not the other way around.</p>
+          </div>
+          <div class="principles-list">
+            <article class="principle-row reveal"><p class="principle-number">01</p><h3>Designed for your home</h3><p>Roof, sunlight, shading and energy use all shape the final system.</p></article>
+            <article class="principle-row reveal"><p class="principle-number">02</p><h3>Clear from day one</h3><p>Understand what is being proposed, why it suits your home and what each part of the system is there to do.</p></article>
+            <article class="principle-row reveal"><p class="principle-number">03</p><h3>Built around your energy</h3><p>The design begins with how your household uses power and what you want to achieve with solar.</p></article>
+            <article class="principle-row reveal"><p class="principle-number">04</p><h3>Thinking beyond installation</h3><p>A good solar decision should make sense for the way you expect to use your home in the years ahead.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="process-section section-pad" id="process" aria-labelledby="process-title">
+        <div class="container process-layout">
+          <div class="process-visual" data-stage="talk">
+            <div class="process-image process-image--talk"><img src="assets/images/nz-home-cook-strait.jpg" alt="A home surrounded by native forest and water" loading="lazy" /></div>
+            <div class="process-image process-image--assess"><img src="assets/images/roof-assessment-aerial.jpg" alt="Aerial view of a roof with solar panels" loading="lazy" /></div>
+            <div class="process-design-diagram" aria-hidden="true"><span class="design-roof"></span><span class="design-sun"></span><span class="design-line design-line--one"></span><span class="design-line design-line--two"></span><span class="design-note design-note--one">SOLAR</span><span class="design-note design-note--two">STORAGE</span></div>
+            <p class="process-visual-caption">The home comes first.</p>
+          </div>
+          <div class="process-copy">
+            <p class="chapter">04 / The process</p>
+            <h2 id="process-title">From your power bill<br /><em>to a system designed for you.</em></h2>
+            <p class="process-intro">We start by understanding the home before deciding what belongs on the roof.</p>
+            <div class="process-steps">
+              <article class="process-step is-active reveal" data-stage="talk">
+                <p class="step-index">01</p>
+                <div><h3>Talk</h3><p>Tell us about your home, how you use electricity and what you're hoping solar can change.</p><p class="step-supporting">Your home / Your energy / Your goals</p></div>
+              </article>
+              <article class="process-step reveal" data-stage="assess">
+                <p class="step-index">02</p>
+                <div><h3>Assess</h3><p>We look at the roof, orientation, available sunlight, shading and the practical conditions that shape a solar design.</p><p class="step-supporting">Roof / Sun / Shade / Space</p></div>
+              </article>
+              <article class="process-step reveal" data-stage="design">
+                <p class="step-index">03</p>
+                <div><h3>Design</h3><p>Those details come together into a system designed around the home and the way you use energy.</p><p class="step-supporting">Solar / Storage / System</p></div>
+              </article>
+            </div>
+            <a class="button button--outline" href="#quote">Start with your home</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="story-section section-pad" id="testimonials" aria-labelledby="story-title">
+        <div class="container story-layout">
+          <figure class="story-image reveal"><img src="assets/images/nz-home-cook-strait.jpg" alt="A blue home set within New Zealand native bush" loading="lazy" /></figure>
+          <div class="story-copy reveal">
+            <p class="eyebrow">Customer stories</p>
+            <h2 id="story-title">A solar system designed<br /><em>around everyday life.</em></h2>
+            <div class="story-placeholder">
+              <p class="story-testimonial">“The whole process felt straightforward from the first conversation. We understood what was being recommended, why it suited our home, and what to expect next.”</p>
+              <div class="story-meta">
+                <p class="story-customer">Sarah &amp; Tom</p>
+                <p>Auckland homeowner</p>
+                <p>Residential solar + battery</p>
+              </div>
+              <p class="story-disclaimer">Demonstration content for design purposes. Final customer story and project details to be supplied by The Solar Co.</p>
+            </div>
+            <a class="text-link" href="#quote">Talk to us about your home</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section section-pad" id="faq" aria-labelledby="faq-title">
+        <div class="container faq-layout">
+          <div class="faq-heading reveal">
+            <p class="chapter">05 / Solar questions</p>
+            <h2 id="faq-title">A few things worth<br /><em>knowing before you start.</em></h2>
+          </div>
+          <div class="faq-list reveal">
+            <details>
+              <summary><span>What happens when the sun isn't shining?</span><b aria-hidden="true">+</b></summary>
+              <div class="faq-answer"><p>Solar output changes with daylight and weather. At night, panels are not generating electricity. A battery can store excess solar energy generated earlier for use later, while grid-connected homes can draw electricity from the grid when required.</p></div>
+            </details>
+            <details>
+              <summary><span>Do I need a battery?</span><b aria-hidden="true">+</b></summary>
+              <div class="faq-answer"><p>Not every solar system needs a battery. Whether storage makes sense depends on how and when your household uses electricity, what you want from the system and how the system is designed.</p></div>
+            </details>
+            <details>
+              <summary><span>Will solar take my home off-grid?</span><b aria-hidden="true">+</b></summary>
+              <div class="faq-answer"><p>Not necessarily. Most residential solar systems remain connected to the electricity grid. Your home can use the energy generated by your solar system while retaining the grid connection when additional power is needed.</p></div>
+            </details>
+            <details>
+              <summary><span>Does every roof suit the same solar setup?</span><b aria-hidden="true">+</b></summary>
+              <div class="faq-answer"><p>No. Roof orientation, available area, pitch, shading and surrounding obstructions can all affect the design. That's why we assess the home before deciding on a system.</p></div>
+            </details>
+            <details>
+              <summary><span>How do I know what size system I need?</span><b aria-hidden="true">+</b></summary>
+              <div class="faq-answer"><p>System size should be considered alongside your energy use, the characteristics of your home and what you want the system to achieve. There isn't one system size that suits every household.</p></div>
+            </details>
+            <div class="faq-cta"><p>Have another question?</p><a class="text-link" href="#quote">Talk to us</a></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote-section section-pad" id="quote" aria-labelledby="quote-title">
+        <div class="container quote-layout">
+          <div class="quote-heading reveal">
+            <p class="eyebrow">Your home / Your solar</p>
+            <h2 id="quote-title">Let's see what solar<br /><em>could look like for your home.</em></h2>
+            <p>Tell us a little about your home and energy use. It's enough to start the conversation.</p>
+          </div>
+          <form class="quote-form reveal" id="quote-form" novalidate>
+            <div class="form-grid">
+              <label>Name<input type="text" name="name" autocomplete="name" required /></label>
+              <label>Email<input type="email" name="email" autocomplete="email" required /></label>
+              <label>Postcode<input type="text" name="postcode" autocomplete="postal-code" inputmode="numeric" required /></label>
+              <label>Average monthly power bill<input type="text" name="power-bill" inputmode="decimal" placeholder="e.g. $250" required /></label>
+            </div>
+            <p class="consent">By submitting this form, you agree to be contacted about your solar enquiry.</p>
+            <button class="button button--dark" type="submit">Get my solar assessment</button>
+            <p class="form-status" id="form-status" role="status" aria-live="polite" hidden></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand"><a class="brand" href="#home" aria-label="The Solar Co. home"><img src="assets/brand/solar-co-logo-transparent.png" alt="The Solar Co." /></a><p>Solar, designed around your home.</p></div>
+        <nav class="footer-nav" aria-label="Footer navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#testimonials">Testimonials</a></nav>
+        <div class="footer-action"><a class="button button--small" href="#quote">Get a solar quote</a><address class="footer-contact"><span>Auckland, New Zealand</span><a href="mailto:hello@thesolarco.co.nz">hello@thesolarco.co.nz</a><a href="tel:0800SOLARCO">0800 SOLAR CO</a></address><p class="footer-note">Placeholder contact details for design presentation.</p></div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
