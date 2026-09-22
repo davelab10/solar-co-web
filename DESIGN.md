@@ -1,853 +1,1319 @@
-# The Solar Co. — Website Design Direction
+# The Solar Co. — Design Direction
 
-## 1. Project Goal
+## 1. Purpose
 
-Create a high-fidelity lead-generation website for The Solar Co., a New Zealand residential solar brand.
+Create a polished, high-converting residential solar website for The Solar Co.
 
-The site must feel intentionally art-directed, premium, trustworthy, residential, and technically credible.
+The website exists primarily to:
 
-This is not a generic renewable-energy startup website.
+> help homeowners understand the solar offer, trust the company, explore the right solution, and request a quote.
+
+This is not an editorial architecture website.
+
+This is not a minimalist design exercise.
+
 This is not a SaaS dashboard.
-This is not a template with solar imagery inserted into it.
 
-Core creative idea:
+This is not a futuristic energy-tech concept.
 
-> Sunlight, engineered for home.
+It is a modern consumer-facing solar website.
 
-The visual world should sit between:
-- premium New Zealand residential architecture,
-- editorial design,
-- solar engineering,
-- approachable consumer education.
+The finished experience should feel:
 
-The primary business goal is qualified residential solar enquiries.
+- established,
+- useful,
+- visually engaging,
+- commercially confident,
+- technically credible,
+- approachable,
+- residential,
+- clearly solar,
+- complete.
+
+The website should look like a real solar business capable of helping a homeowner make a significant purchasing decision.
 
 ---
 
-## 2. Source Hierarchy
+# 2. Primary Design Principle
+
+The website must communicate before it decorates.
+
+Every major section should answer a useful homeowner question.
+
+Examples:
+
+- What does The Solar Co. offer?
+- Is solar relevant to my home?
+- Should I consider solar only or solar + battery?
+- How does the system work?
+- What happens to excess energy?
+- What factors affect system design?
+- What happens next?
+- Why should I enquire?
+- What information should I provide?
+
+Visual design should make these answers easier and more compelling to explore.
+
+Do not create large sections whose primary purpose is simply to look premium.
+
+---
+
+# 3. Evidence From the Contest
+
+Two competing concepts have received 4-star ratings from the contest holder.
+
+One of them was initially rated 5 stars with the comment:
+
+> "love it"
+
+before later being revised to 4 stars.
+
+These references are not designs to copy.
+
+They establish a visual and commercial preference zone.
+
+The client has demonstrated a stronger response to websites that feel:
+
+- visually active,
+- content-rich,
+- obviously solar,
+- commercially complete,
+- interactive,
+- product-oriented,
+- informative,
+- conversion-focused.
+
+The previous Solar Co. direction was too restrained and too editorial.
+
+Do not repeat that mistake.
+
+The goal is not to reproduce a 4-star design.
+
+The goal is:
+
+> understand why those designs reached 4 stars and create a more resolved, more distinctive and more conversion-focused Solar Co. experience.
+
+---
+
+# 4. Primary Benchmark
+
+Study:
+
+https://my.mnisaju2.com/solar-co.html
+
+Use it as evidence of:
+
+- information architecture,
+- commercial density,
+- visual pacing,
+- solar education depth,
+- variety between sections,
+- product/service communication,
+- conversion frequency,
+- interaction opportunities,
+- perceived completeness.
+
+Do NOT copy:
+
+- its layout,
+- exact compositions,
+- typography,
+- graphics,
+- animations,
+- copy,
+- company claims,
+- numerical claims,
+- Lightforce information.
+
+The benchmark demonstrates an important principle:
+
+> a long homepage can remain engaging when each section provides new information, new visual treatment, or new decision support.
+
+The page should not become long because of whitespace.
+
+It should become substantial because it is useful.
+
+---
+
+# 5. Secondary Benchmark
+
+Study the other documented contest reference:
+
+https://nzsolar.netlify.app
+
+Use it primarily as evidence that the contest holder is comfortable with:
+
+- technical information,
+- solar system visualization,
+- interactive components,
+- denser layouts,
+- product-oriented UI,
+- useful diagrams.
+
+Do not reproduce its dashboard-like visual language.
+
+The Solar Co. should remain homeowner-friendly rather than becoming an energy monitoring application.
+
+---
+
+# 6. Source Hierarchy
 
 Use project sources in this order:
 
-1. `assets/brand/`
-   - The Solar Co. logo and brand artwork.
-   - This is the primary visual identity source.
+## 1. This DESIGN.md
 
-2. `references/brief/solartech-copy.pdf`
-   - Client-provided reference material.
-   - Use it to understand solar education, buyer concerns, information hierarchy, and visual tone.
-   - It belongs to/reference Lightforce Solar and must NOT be treated as factual company information about The Solar Co.
+Primary authority for:
 
-3. `references/benchmarks/README.md`
-   - Contains two contest entries already rated 5 stars by the client.
-   - They establish a minimum quality bar, not a layout to reproduce.
+- page architecture,
+- visual direction,
+- hierarchy,
+- density,
+- interaction,
+- conversion strategy.
 
-4. Local AntiSlop skills in `.codex/skills/`
-   - Use them as implementation and quality constraints.
+## 2. `assets/brand/`
 
-Do not invent missing company facts.
+Primary authority for brand identity.
 
----
+Use the real Solar Co. logo and its orange/navy visual language.
 
-## 3. Benchmark Interpretation
+## 3. `CONTENT.md`
 
-### Reference 01
-https://nzsolar.netlify.app
+Use approved project content where available.
 
-Client response:
-- 5 stars
-- "love it"
+## 4. `ASSETS.md`
 
-Useful qualities:
-- substantial content,
-- interactive presentation,
-- solar education,
-- strong sense of technical capability.
+Use the supplied and selected image assets intentionally.
 
-Do NOT reproduce:
-- dashboard-heavy presentation,
-- excessive widgets,
-- dense card systems,
-- decorative metrics,
-- generic AI-generated engineering UI.
+## 5. `references/benchmarks/README.md`
 
-Treat this primarily as evidence that the client accepts depth and interactivity.
+Use for documented benchmark context.
 
-### Reference 02
-https://my.mnisaju2.com/solar-co.html
+## 6. Client-provided solar reference material
 
-Client response:
-- 5 stars
+Use for general solar education and understanding homeowner concerns.
 
-Useful qualities:
-- strong composition,
-- photography,
-- section pacing,
-- motion,
-- consumer-friendly storytelling,
-- more sophisticated visual presentation.
+Do not transfer another company's factual claims to The Solar Co.
 
-This is the stronger visual benchmark.
+## 7. `.codex/skills/`
 
-Do NOT copy its layout, styling, animation, content structure, or compositions directly.
+AntiSlop and related skills are quality-control tools.
 
-The final site must have its own recognizable identity.
+They are not the art director.
+
+They must not override this document.
 
 ---
 
-## 4. Core Art Direction
+# 7. Information Architecture Before Visual Styling
 
-The site should feel like:
+The homepage should follow a commercial decision journey.
 
-> New Zealand residential architecture × solar engineering.
+The recommended information architecture is:
 
-Lead with the HOME, not the technology.
+1. HERO / OFFER
+2. QUICK VALUE + SOLUTIONS
+3. WHY SOLAR
+4. SOLAR SOLUTIONS
+5. HOW SOLAR WORKS
+6. SOLAR + GRID / BATTERY UNDERSTANDING
+7. DESIGNED FOR YOUR HOME
+8. WHY THE SOLAR CO.
+9. PROJECT / RESIDENTIAL PROOF
+10. PROCESS
+11. CUSTOMER STORY
+12. HOMEOWNER DECISION SUPPORT
+13. QUOTE / CONSULTATION
+14. FAQ
+15. FOOTER
 
-Solar should feel integrated into a desirable way of living rather than presented as a collection of technical products.
+This is the default architecture.
 
-Primary visual tools:
+Sections may be combined when doing so produces a stronger experience.
 
-1. architectural photography,
-2. typography,
-3. whitespace,
-4. composition,
-5. The Solar Co. sun-dot motif,
-6. restrained motion.
+Do not remove useful information simply to make the page shorter.
 
-UI components should not be responsible for making the site visually interesting.
+Do not create large decorative transition sections between them.
 
----
+Every major scroll should provide:
 
-## 5. Signature Brand Device
-
-The dotted sun symbol in The Solar Co. logo is the signature visual device.
-
-Develop a restrained graphic language from it.
-
-Concept:
-
-SUN → ENERGY → HOME
-
-Possible uses:
-- radial dot formations,
-- energy paths,
-- section transitions,
-- animated energy flow,
-- diagram markers,
-- subtle crop details.
-
-Do not scatter dots randomly as decoration.
-
-Every use should visually relate to sunlight, energy movement, direction, or the brand identity.
-
-The website should remain recognizably The Solar Co. even when the full logo is not visible.
+- new information,
+- a new visual,
+- an interaction,
+- useful proof,
+- or a conversion opportunity.
 
 ---
 
-## 6. Colour System
+# 8. Content Density
 
-Use the actual logo asset to determine final brand colours.
+The previous design used too much empty space.
 
-Starting visual direction only:
+Correct this aggressively.
 
-- Solar Orange: approximately `#FF9948`
-- Deep Navy: approximately `#203348`
-- Warm White: approximately `#F7F6F1`
-- Pure White: `#FFFFFF`
-- Ink: approximately `#172637`
-- Soft Line: approximately `#DADDD8`
+The site should feel:
 
-Do not blindly use these approximate values if the logo provides better source colours.
+> generous, but populated.
 
-### Colour behaviour
+Whitespace is allowed around content.
 
-Warm white / white:
-- dominant page canvas.
+Whitespace must not become a section.
 
-Navy:
-- typography,
-- navigation,
-- diagrams,
-- occasional high-contrast sections.
+Avoid:
 
-Orange:
-- CTA,
-- energy paths,
+- nearly empty viewports,
+- giant gaps between sections,
+- one small text block floating inside a full screen,
+- huge photographs with no meaningful content relationship,
+- decorative pauses that require an entire scroll,
+- oversized typography used to compensate for limited content.
+
+A useful test:
+
+> When the full desktop page is viewed as a narrow thumbnail, it should still appear consistently populated and visually rhythmic.
+
+There should not be large stretches that look blank or unfinished.
+
+---
+
+# 9. Visual Direction
+
+The visual language should be:
+
+> contemporary residential solar.
+
+It should combine:
+
+- desirable homes,
+- clearly visible solar systems,
+- product information,
+- energy education,
+- practical homeowner guidance,
+- confident brand colour,
+- strong conversion UI.
+
+The visual hierarchy should feel closer to a premium consumer product website than an architecture publication.
+
+Solar must remain the subject.
+
+Architecture supports solar.
+
+Architecture must not become the subject.
+
+---
+
+# 10. Typography
+
+The previous visual direction relied too heavily on large editorial serif typography.
+
+Do not repeat that system.
+
+Primary typography should feel:
+
+- contemporary,
+- clean,
+- commercial,
+- confident,
+- highly readable.
+
+A serif or expressive display face may be used selectively for:
+
+- emphasis,
+- a short phrase,
+- testimonial treatment,
+- occasional brand character.
+
+It should NOT dominate:
+
+- the hero,
+- every section title,
+- the primary visual identity,
+- the overall page.
+
+Do not repeatedly use large italic serif phrases as the main design device.
+
+Use typography hierarchy through:
+
+- scale,
+- weight,
+- spacing,
+- contrast,
+- layout,
+- colour.
+
+Headings should be strong without requiring enormous dimensions.
+
+Body text should be comfortably readable.
+
+Utility text must not become excessively small.
+
+---
+
+# 11. Brand Colour
+
+Primary colours:
+
+- Solar Co. orange,
+- Solar Co. navy,
+- white,
+- warm/light neutral supporting backgrounds.
+
+Use orange more confidently than in the previous design.
+
+Orange may appear in:
+
+- primary CTA buttons,
+- selected backgrounds,
+- energy flow,
 - active states,
-- numbers,
-- selective brand accents.
+- section labels,
+- icons,
+- graphic elements,
+- key content panels.
 
-Orange must remain an accent rather than flooding the entire interface.
+Use navy for:
 
-The website must NOT become a dark website.
+- typography,
+- high-contrast sections,
+- diagrams,
+- technical explanation,
+- footer,
+- selected content blocks.
 
-Do not introduce a generic green sustainability palette.
+The page should remain predominantly bright.
 
----
+Do not create a predominantly dark website.
 
-## 7. Typography
+Do not restrict brand colours to tiny labels and buttons.
 
-Typography should feel architectural, editorial, contemporary, and human.
-
-Avoid making the entire site look like a SaaS product.
-
-Do not default to Inter for the whole interface.
-
-Use:
-- expressive but restrained display typography for major statements,
-- highly readable sans-serif typography for body and utility text.
-
-Headlines should have confident scale and deliberate line breaks.
-
-Large typography must have compositional purpose.
-Do not make text enormous simply because oversized typography is fashionable.
-
-Typography should carry significant visual weight so the design does not depend on cards and decoration.
+The colour system should contribute visibly to page composition.
 
 ---
 
-## 8. Layout System
+# 12. Hero
 
-Desktop:
-- editorial grid,
-- asymmetric compositions,
-- generous whitespace,
-- intentional changes in rhythm,
-- full-bleed photography where appropriate.
+The hero must be rebuilt as a commercial solar hero.
 
-Avoid repeating:
+Do not preserve the previous editorial split-screen composition by default.
 
-heading
-paragraph
-three cards
+The hero must communicate within the first viewport:
 
-for every section.
+- residential solar,
+- what The Solar Co. does,
+- homeowner relevance,
+- primary quote action,
+- access to useful secondary information.
 
-Not every section should be centered.
+It should include:
 
-Alternate:
-- asymmetric split,
-- full-width visual,
-- editorial text block,
-- diagram,
-- sticky composition,
-- typographic rows.
+- strong residential solar photography,
+- concise positioning,
+- supporting value statement,
+- prominent CTA,
+- secondary exploration action,
+- immediate solar/product context.
 
-The page should feel composed, not assembled from components.
+Possible compositions include:
 
----
+- large photographic hero with integrated content,
+- layered image composition,
+- image + branded content panel,
+- asymmetric product-led hero,
+- immersive residential scene with useful overlays.
 
-# 9. Homepage Composition
+Do not create:
 
-## 9.1 Header
+- a giant serif headline beside a rectangular image,
+- excessive white margins,
+- an architecture-magazine cover,
+- a hero dependent on one sentence for impact.
 
-Clean and restrained.
+The hero should feel rich enough to compete immediately with the strongest contest entries.
 
-Left:
-- The Solar Co. logo.
+Suggested message direction:
 
-Navigation:
-- Home
-- About
-- Services
-- Testimonials
+> Solar designed around your home.
 
-Primary action:
-- Get a Solar Quote
-
-Do not place navigation inside a giant floating pill.
-
-Header may transition subtly as the user scrolls, but should remain visually quiet.
-
----
-
-## 9.2 Hero
-
-Goal:
-Immediately establish premium residential positioning and provide a clear quote path.
-
-Desktop composition:
-- approximately 42% editorial content,
-- approximately 58% architectural solar photography.
-
-Photography should feel integrated into the composition, not placed inside a generic rounded card.
-
-Suggested headline:
-
-Solar, designed
-around your home.
-
-Supporting direction:
-
-No two homes use energy the same way. The Solar Co. designs a solar solution around the home, energy usage, and what the homeowner wants to achieve.
+But the composition matters more than preserving this exact line.
 
 Primary CTA:
 
-Get a solar quote
+> Get a Solar Quote
 
-Optional secondary action:
+Secondary CTA:
 
-Explore how solar works
+> See How Solar Works
 
-Use minimal copy.
-
-The hero should have one memorable visual idea rather than multiple floating elements.
-
-Introduce the brand dot/energy motif subtly.
+or another useful exploration action.
 
 ---
 
-## 9.3 Your Home
+# 13. Immediate Offer Layer
 
-Chapter marker:
+Do not wait several sections before explaining the offer.
 
-01 / YOUR HOME
+Within or immediately after the first viewport, make the main solution categories visible.
 
-Primary statement:
+Recommended categories:
 
-No two homes use energy the same way.
-Your solar system shouldn't either.
+### Solar
 
-Explain that system design depends on:
-- the home,
-- roof characteristics,
-- energy usage,
-- household goals.
+Generate electricity from sunlight at home.
 
-Use an architectural roof/home visual.
+### Solar + Battery
 
-A restrained technical overlay may communicate:
-- roof orientation,
-- sunlight,
-- shading,
-- solar potential.
+Store available excess solar energy for use later.
 
-Do not turn this into a dashboard.
+### Home Energy Design
 
-This section should combine residential warmth with engineering precision.
+Design the system around the property, energy use and household goals.
 
----
+If approved project content safely supports another service category, it may be added.
 
-## 9.4 How Solar Works
+These should feel like real offerings rather than decorative labels.
 
-Chapter marker:
+Use:
 
-02 / THE SYSTEM
+- visual cards,
+- image-backed modules,
+- interactive selectors,
+- compact product panels,
+- strong horizontal rail,
+- another deliberate commercial treatment.
 
-Create one major visual system rather than multiple cards.
-
-Desktop conceptual flow:
-
-SUN → PANELS → HOME → BATTERY ↔ GRID
-
-The exact technical presentation may include inverter/meter information where useful, but visual clarity is more important than exposing every component simultaneously.
-
-Use the orange dot motif as moving energy.
-
-Motion should communicate energy flow.
-
-Desktop:
-- primarily horizontal.
-
-Mobile:
-- transform naturally into a vertical energy path.
-
-The diagram must remain understandable without animation.
+They should provide enough information to be useful.
 
 ---
 
-## 9.5 Services
+# 14. Why Solar
 
-Chapter marker:
+The page should sell the homeowner value of solar before becoming too technical.
 
-03 / WHAT WE DESIGN
+Communicate safe general benefits such as:
 
-Use a maximum of three substantial editorial service panels.
-
-Suggested categories:
-
-SOLAR
-
-BATTERY
-
-ENERGY DESIGN
-
-Each panel:
-- strong photography or purposeful visual,
-- category number,
-- concise explanation,
-- optional contextual link.
-
-Avoid:
-- tiny icon cards,
-- six-card grids,
-- generic line icons floating in circles,
-- equal rounded rectangles with identical internal structure.
-
-The panels should feel like editorial chapters rather than dashboard modules.
-
----
-
-## 9.6 Residential Visual Chapter
-
-Create a visual breathing point after the technical/service content.
-
-Use large-scale New Zealand residential photography.
-
-Possible statement direction:
-
-A home powered differently.
-
-Explain simply:
-- generate energy at home,
-- use what is needed,
-- store excess when applicable,
-- interact with the grid when required.
-
-Do not overlay fake real-time statistics.
-
-Let the photography breathe.
-
----
-
-## 9.7 Why The Solar Co.
-
-Do not use invented company metrics.
+- generating electricity at home,
+- using available solar energy directly,
+- storing excess energy when a battery is included,
+- understanding household energy use,
+- reducing reliance on imported grid electricity when conditions allow,
+- designing around the property rather than choosing a generic package.
 
 Do not invent:
-- installation counts,
-- years in business,
-- awards,
-- customer counts,
-- coverage numbers,
-- warranties,
-- ratings.
 
-Instead communicate principles through large typographic rows.
+- exact savings,
+- payback periods,
+- ROI,
+- percentages,
+- market statistics.
 
-Possible direction:
+The absence of verified numbers is not a reason to remove the section.
 
-DESIGNED FOR YOUR HOME
+Replace unsupported numerical proof with:
 
-CLEAR FROM DAY ONE
-
-BUILT AROUND YOUR ENERGY
-
-SUPPORT BEYOND INSTALLATION
-
-Use restrained supporting copy.
-
-This section should communicate trust through clarity and presentation, not fabricated proof.
+- clear explanation,
+- diagrams,
+- scenarios,
+- visual comparisons,
+- homeowner-focused reasoning.
 
 ---
 
-## 9.8 Process
+# 15. Solar Solutions
 
-Chapter marker:
+Create a substantial product/service section.
 
-04 / THE PROCESS
+The visitor should understand the difference between the main solution types.
 
-Use three primary stages:
+Each solution should have:
 
-01 TALK
+- clear title,
+- concise explanation,
+- relevant visual,
+- homeowner use case,
+- meaningful enquiry or exploration action where appropriate.
 
-Understand the home, current energy use, and what the customer wants from solar.
+Do not represent services as three tiny labels underneath a giant editorial section.
 
-02 ASSESS
+Make them visually tangible.
 
-Review the roof, orientation, sunlight, shading, and relevant constraints.
+Potential treatments:
 
-03 DESIGN
+- mixed-size cards,
+- product panels,
+- tabs,
+- image-led modules,
+- alternating layouts,
+- interactive selector.
 
-Develop a system appropriate to the home and energy requirements.
-
-Desktop interaction:
-- consider sticky photography or visual,
-- stage content progresses alongside it.
-
-Mobile:
-- stacked sequence,
-- no dependency on sticky behaviour.
-
-Do not turn these into three generic cards.
-
----
-
-## 9.9 Customer Story
-
-Avoid a conventional testimonial carousel as the main treatment.
-
-Present one customer story prominently.
-
-Composition:
-- large quotation,
-- residential/customer photography,
-- restrained attribution,
-- optional small navigation for additional stories.
-
-It should feel editorial and human.
-
-Do not fabricate customer names, ratings, quotes, or project data.
-
-If actual testimonials are unavailable during implementation, use clearly identifiable placeholder content that can be replaced rather than presenting invented claims as real.
+Avoid six identical generic icon cards.
 
 ---
 
-## 9.10 Solar Questions
+# 16. How Solar Works
 
-Provide a clean FAQ area for research-stage buyers.
+This should be one of the strongest informational sections.
 
-Use restrained accordion behaviour.
+Explain the energy journey clearly:
 
-Potential topics can be informed by the supplied reference material, but company-specific answers must not be invented.
+SUN
+↓
+SOLAR PANELS
+↓
+INVERTER
+↓
+HOME
+↔
+BATTERY
+↔
+GRID
 
-Visual treatment:
-- strong typography,
-- thin dividers,
-- generous spacing.
+The design may use:
 
-Avoid card containers around every question.
+- animated energy paths,
+- interactive nodes,
+- an illustrated house,
+- product/component visuals,
+- labelled connections,
+- progressive explanation,
+- selectable stages.
+
+The visual should be large enough to matter.
+
+Do not place a tiny diagram inside a huge dark section.
+
+Do not make the graphic decorative.
+
+Every component should explain something.
+
+At minimum communicate:
+
+### Sun
+Sunlight provides the source energy.
+
+### Solar panels
+Panels convert sunlight into DC electricity.
+
+### Inverter
+The inverter converts DC electricity into usable AC electricity.
+
+### Home
+The home uses available solar generation.
+
+### Battery
+A battery can store excess solar generation for later use.
+
+### Grid
+A grid-connected home can draw additional electricity when needed and may export excess generation depending on the system and electricity arrangement.
+
+Keep explanations concise and homeowner-friendly.
 
 ---
 
-## 9.11 Quote Conversion Section
+# 17. Solar, Battery and Grid
 
-The final conversion moment should feel visually distinct.
+The benchmark provides substantial decision support around grid-connected and off-grid systems.
 
-Possible statement:
+The Solar Co. design should also help visitors understand the relationship between:
 
-Let's see what solar could look like for your home.
+- solar generation,
+- household consumption,
+- battery storage,
+- grid import,
+- potential export.
 
-Use a strong orange brand field or another deliberate brand treatment.
+Do this without copying the benchmark.
 
-Initial form fields:
+Possible presentation:
 
-- Name
+- side-by-side scenarios,
+- interactive energy paths,
+- day/evening comparison,
+- solar-only vs solar+battery comparison,
+- simplified system states.
+
+This is an opportunity for useful visual design.
+
+It should not become a software dashboard.
+
+---
+
+# 18. Designed for Your Home
+
+This is a core credibility section.
+
+Explain that a solar system should respond to the property.
+
+Relevant factors include:
+
+- roof orientation,
+- roof area,
+- roof pitch,
+- sunlight,
+- shading,
+- household energy use,
+- household goals.
+
+Use roof or aerial photography where useful.
+
+Visual treatments may include:
+
+- roof overlays,
+- sun path,
+- orientation markers,
+- solar-zone highlighting,
+- concise technical annotations,
+- interactive callouts.
+
+This should communicate:
+
+> thoughtful system design.
+
+Do not turn it into an empty architecture spread.
+
+Photography must carry information.
+
+---
+
+# 19. Why The Solar Co.
+
+Because verified company metrics are limited, build trust through the quality of the proposition rather than fabricated numbers.
+
+Possible themes:
+
+### Designed around your home
+
+Start with the property and household needs rather than a generic package.
+
+### Clear recommendations
+
+Make the available options understandable.
+
+### Solar + battery thinking
+
+Consider generation, use and storage together.
+
+### Straightforward process
+
+Make the path from enquiry to system design easy to understand.
+
+### Support through the decision
+
+Help homeowners understand the system before committing.
+
+Use an intentional visual system.
+
+This may use:
+
+- cards,
+- editorial rows,
+- diagrams,
+- icons,
+- photography,
+- branded panels.
+
+Do not create fake statistics to make this section feel stronger.
+
+---
+
+# 20. Project / Residential Proof
+
+Include a visually strong section showing solar in real residential contexts.
+
+Use available photography appropriately.
+
+The purpose is to show:
+
+- what solar looks like on desirable homes,
+- that systems can integrate with architecture,
+- different residential contexts,
+- tangible solar outcomes.
+
+Possible treatments:
+
+- project gallery,
+- horizontal image rail,
+- mixed image grid,
+- featured project + secondary projects,
+- interactive image navigation.
+
+Do not create a giant single image as an empty cinematic pause.
+
+Every image section should have enough structure to remain useful.
+
+If project-specific factual information is unavailable, do not invent technical specifications.
+
+---
+
+# 21. Process
+
+Create a clear and substantial process section.
+
+Recommended stages:
+
+### 01 — Talk
+
+Understand the household, property, energy use and goals.
+
+### 02 — Assess
+
+Consider roof conditions, orientation, sunlight, shading and relevant constraints.
+
+### 03 — Design
+
+Develop an appropriate solar solution around the home and energy needs.
+
+Do not invent unsupported installation or operational promises.
+
+The process should feel visually important.
+
+Possible treatments:
+
+- connected timeline,
+- interactive stages,
+- sticky visual,
+- progressive illustration,
+- image + stage navigation.
+
+Do not place tiny process controls in the middle of a mostly empty viewport.
+
+---
+
+# 22. Customer Story
+
+Customer proof should feel human and residential.
+
+If real Solar Co. testimonial content is unavailable, clearly identify demonstration content.
+
+The design may include:
+
+- customer portrait,
+- homeowner photography,
+- home/project photography,
+- quote,
+- location,
+- system interest,
+- short story.
+
+Do not fabricate:
+
+- ratings,
+- review totals,
+- verified project specifications,
+- performance claims.
+
+One well-designed story is more credible than fake social proof.
+
+The section should be visually distinct from surrounding technical content.
+
+---
+
+# 23. Decision Support
+
+Before asking for the final enquiry, help the homeowner make sense of the decision.
+
+This may include:
+
+- solar vs solar + battery,
+- what affects system design,
+- questions to ask a solar provider,
+- what information helps during consultation,
+- common homeowner considerations.
+
+A checklist or comparison component is allowed.
+
+Do not copy the benchmark's installer checklist verbatim.
+
+Create Solar Co.-appropriate decision support using only safe, general information.
+
+This section should make the website feel genuinely useful rather than purely promotional.
+
+---
+
+# 24. Conversion Strategy
+
+Lead generation is the primary objective.
+
+Conversion opportunities should appear naturally throughout the page.
+
+At minimum:
+
+- header CTA,
+- hero CTA,
+- CTA after meaningful product/education content,
+- final consultation section.
+
+Do not place a button after every paragraph.
+
+Do not hide the only meaningful conversion opportunity at the bottom.
+
+CTA wording should remain clear and practical.
+
+Preferred primary CTA:
+
+> Get a Solar Quote
+
+or:
+
+> Get My Solar Assessment
+
+Secondary CTAs may include:
+
+- See How Solar Works
+- Explore Solar + Battery
+- Talk About My Home
+
+Avoid vague CTA language such as:
+
+- Learn More
+- Discover
+- Explore the Future
+
+when a more specific action is possible.
+
+---
+
+# 25. Quote / Consultation Section
+
+The final enquiry section should be one of the strongest commercial moments.
+
+Do not make it a tiny form floating inside a mostly empty area.
+
+Create a substantial branded conversion section.
+
+Possible composition:
+
+- strong orange field,
+- split image + form,
+- navy information panel + bright form,
+- layered residential photography,
+- concise preparation checklist.
+
+Suggested heading:
+
+> Let's see what solar could look like for your home.
+
+Useful initial fields:
+
+- Full name
 - Email
-- Postcode
+- Phone optional
+- Postcode / suburb
+- What are you interested in?
 - Average monthly power bill
+- Optional message
 
-Primary action:
+Interest options may include:
 
-Get my solar assessment
+- Solar
+- Solar + Battery
+- Not Sure Yet
 
-Keep the initial interaction simple.
+Do not invent service options that are not supported by the project.
 
-Do not present a huge intimidating form.
+Keep the form approachable.
 
-If progressive disclosure is implemented, it must remain understandable and accessible.
+It should feel possible to complete quickly.
 
 ---
 
-## 9.12 Footer
+# 26. FAQ
 
-Clean, useful, compact.
+FAQ should provide genuine decision support.
 
-Include:
-- logo,
+Useful topics may include:
+
+- what happens when sunlight is limited,
+- how battery storage works,
+- what happens to excess generation,
+- solar-only vs solar + battery,
+- what affects system design,
+- how roof conditions affect solar,
+- what information is useful for an initial assessment.
+
+Do not copy unsupported warranty or company-specific answers from other sources.
+
+Use a polished accordion or another highly scannable interaction.
+
+The FAQ should feel integrated into the website rather than appended as an afterthought.
+
+---
+
+# 27. Footer
+
+The footer should feel complete.
+
+Include available:
+
+- Solar Co. identity,
 - navigation,
-- contact placeholders only where actual details are unavailable,
-- legal links if supplied,
-- clear quote CTA.
+- quote CTA,
+- contact presentation,
+- relevant disclaimer for placeholder/demo details if needed.
 
-Do not make the footer another giant marketing section.
+Do not invent addresses, phone numbers, certifications, memberships or social accounts.
 
----
-
-# 10. Motion System
-
-Motion should improve hierarchy and storytelling.
-
-Do NOT animate everything.
-
-Use four primary motion families.
-
-## 10.1 Hero Reveal
-
-Restrained image reveal on initial load.
-
-No cinematic intro that delays access to the site.
-
-## 10.2 Energy Flow
-
-Orange dots or related brand particles move along meaningful energy paths.
-
-Use primarily in:
-- solar system diagram,
-- selected transitions.
-
-Do not create decorative particle noise.
-
-## 10.3 Text Reveal
-
-Major chapter headings may use subtle mask/reveal behaviour.
-
-Do not apply identical fade-up animation to every paragraph and card.
-
-## 10.4 Process Transition
-
-Desktop process imagery may transition while related content progresses.
-
-Keep movement controlled and readable.
+Use placeholders only when clearly disclosed.
 
 ---
 
-## 11. Motion Accessibility
+# 28. Photography
+
+Photography should communicate both aspiration and product reality.
+
+Prioritize images containing:
+
+- finished residential homes,
+- clearly visible solar panels,
+- natural daylight,
+- believable landscapes,
+- attractive but realistic architecture,
+- human context where useful.
+
+Avoid allowing architecture imagery to dominate the solar story.
+
+A beautiful home without visible solar should only be used when another visual element clearly maintains the solar context.
+
+Avoid:
+
+- construction-site hero imagery,
+- repeated panel close-ups,
+- generic corporate stock photography,
+- handshakes,
+- miniature houses in hands,
+- fake glowing panels,
+- obviously AI-generated houses,
+- excessive abstract sustainability imagery.
+
+Use photography at varied scales.
+
+Not every image should be the same rectangle.
+
+---
+
+# 29. Visual Composition
+
+Use richer composition than the previous version.
+
+Allowed and encouraged when purposeful:
+
+- layered imagery,
+- overlaps,
+- cards,
+- full-width sections,
+- asymmetric grids,
+- strong image crops,
+- horizontal rails,
+- diagrams,
+- technical annotations,
+- iconography,
+- product panels,
+- branded surfaces,
+- subtle gradients,
+- shadows,
+- restrained rounded corners,
+- interactive states,
+- sticky content,
+- visual comparisons.
+
+Do not use all of these simultaneously.
+
+Choose the appropriate device for the information being communicated.
+
+The page should contain visual variety without losing coherence.
+
+---
+
+# 30. Section Rhythm
+
+Avoid repeating one composition.
+
+Do not create:
+
+section title
++
+large serif heading
++
+small paragraph
++
+large whitespace
++
+rectangular photograph
+
+over and over.
+
+Alternate intentionally between:
+
+- product presentation,
+- photography,
+- technical explanation,
+- interactive content,
+- text-led education,
+- proof,
+- conversion.
+
+Each section should have a reason to look the way it does.
+
+Transitions should feel deliberate but should not consume large amounts of vertical space.
+
+---
+
+# 31. Motion
+
+Motion should make the experience feel polished and alive.
+
+Good opportunities:
+
+- hero reveal,
+- solar energy movement,
+- interactive system diagram,
+- solution selection,
+- image transitions,
+- process progression,
+- horizontal project movement,
+- subtle scroll relationships,
+- accordion transitions,
+- CTA feedback.
+
+Do not animate every element with the same fade-up.
+
+Avoid:
+
+- scroll hijacking,
+- long intro sequences,
+- constant floating decoration,
+- animation that delays content,
+- effects that exist only to demonstrate animation.
 
 Respect `prefers-reduced-motion`.
 
-The site must remain visually complete and understandable with motion disabled.
-
-Do not hide essential content behind scroll-triggered animation.
-
-No:
-- custom cursor,
-- excessive parallax,
-- magnetic buttons,
-- scroll hijacking,
-- motion that delays interaction.
+The static composition must remain strong without animation.
 
 ---
 
-# 12. Photography Direction
+# 32. Mobile
 
-Photography is a major part of the visual identity.
+Mobile is a designed experience, not a collapsed desktop layout.
 
-Prioritize:
-- contemporary New Zealand residential architecture,
-- solar panels integrated cleanly into roofs,
-- natural daylight,
-- believable residential environments,
-- landscape/context where appropriate,
-- people only where imagery feels candid and credible.
+On mobile:
 
-Avoid:
-- generic corporate handshake imagery,
-- exaggerated eco stock photography,
-- hands holding miniature houses,
-- glowing solar panels,
-- artificial green leaves around technology,
-- generic blue-sky panel closeups repeated everywhere,
-- obviously AI-generated homes or people.
+- solar identity must remain immediate,
+- hero must remain visually strong,
+- CTA should remain easy to reach,
+- product categories should be understandable,
+- diagrams should become vertical where necessary,
+- technical labels must remain readable,
+- photography should use intentional crops,
+- interactions must work without hover,
+- information density should remain useful without becoming cramped.
 
-Photography should communicate:
+Remove secondary decorative complexity when necessary.
 
-home first,
-solar integrated.
+Do not remove important decision-support content simply to shorten mobile.
+
+No horizontal overflow.
 
 ---
 
-# 13. Content Rules
+# 33. AntiSlop
 
-The supplied buyer guide is reference material from another solar company.
+AntiSlop is a final quality filter.
 
-Never transfer company-specific claims from it to The Solar Co.
+It should prevent:
 
-Do NOT claim without supplied evidence:
+- generic AI-generated composition,
+- meaningless decoration,
+- repetitive templates,
+- fake information,
+- random UI,
+- arbitrary visual effects,
+- poor hierarchy,
+- incoherent spacing,
+- careless mobile behaviour.
 
-- number of installations,
-- company ownership structure,
-- warranties,
-- number of locations,
-- coverage percentage,
+AntiSlop must NOT automatically reject:
+
+- cards,
+- gradients,
+- rounded components,
+- icons,
+- diagrams,
+- overlaps,
+- dense layouts,
+- product UI,
+- technical graphics,
+- motion,
+- visual comparison.
+
+A familiar pattern is not automatically bad.
+
+A pattern becomes bad when it is:
+
+- generic,
+- unnecessary,
+- repeated mechanically,
+- disconnected from content.
+
+Ask:
+
+> Does this component make the information clearer, more desirable, more credible, or easier to act on?
+
+If yes, it may be appropriate.
+
+---
+
+# 34. Content Safety
+
+Do not claim unsupported The Solar Co. facts.
+
+Do not invent:
+
+- installation counts,
+- customer counts,
+- review ratings,
 - years operating,
-- exact ROI,
-- exact savings,
+- ownership structure,
+- service coverage,
+- locations,
+- offices,
+- team size,
 - awards,
 - certifications,
-- customer counts.
+- warranties,
+- partnerships,
+- exact savings,
+- ROI,
+- payback periods,
+- bill reduction percentages,
+- carbon reduction statistics.
 
-General educational concepts from the source may inform explanatory content.
+Do not transfer Lightforce-specific claims from reference material.
 
-If a fact is company-specific and unavailable, omit it or mark it clearly for replacement.
+When the benchmark uses numerical proof that cannot safely be used for The Solar Co., preserve the informational purpose rather than the number.
 
-Trust must come from design quality and transparent communication rather than fabricated statistics.
+Example:
 
----
+Instead of inventing a payback statistic, explain what factors affect solar value.
 
-# 14. Anti-Slop Hard Rules
+Instead of inventing installation counts, demonstrate expertise through useful system explanation.
 
-NO bento-grid homepage.
+Instead of inventing warranty numbers, explain what a homeowner should ask about warranties.
 
-NO glassmorphism.
-
-NO gradient blobs.
-
-NO decorative aurora backgrounds.
-
-NO dashboard UI.
-
-NO fake metrics.
-
-NO invented awards.
-
-NO excessive rounded cards.
-
-NO icon-card grids.
-
-NO generic startup illustrations.
-
-NO random floating UI.
-
-NO pills around every label.
-
-NO giant pill navigation container.
-
-NO excessive border-radius.
-
-NO green sustainability cliché palette.
-
-NO repeated centered layouts.
-
-NO repeated heading + paragraph + three-card structure.
-
-NO meaningless charts.
-
-NO decorative technical widgets without user value.
-
-NO generic "future of energy" language.
-
-NO visual complexity solely to appear sophisticated.
-
-NO animation on every element.
-
-NO blindly copying either contest benchmark.
+Missing company data should lead to smarter content design, not empty space.
 
 ---
 
-# 15. Responsive Direction
+# 35. Existing V1/V2 Implementation
 
-Responsive design must be composed intentionally, not merely collapsed.
+The existing implementation is not the visual target.
 
-## Desktop
+Do not preserve a composition merely because it already exists.
 
-Use:
-- asymmetric grid,
-- large photography,
-- editorial whitespace,
-- horizontal energy diagram,
-- sticky process treatment where appropriate.
+The following may be retained:
 
-## Tablet
+- accurate content,
+- useful photography,
+- real brand assets,
+- working semantic structure,
+- useful interactions,
+- accessibility foundations.
 
-Preserve hierarchy while reducing visual complexity.
+The following should be reconsidered freely:
 
-Avoid awkward half-desktop compositions.
+- hero composition,
+- typography system,
+- section architecture,
+- spacing,
+- image treatment,
+- component structure,
+- interaction design,
+- page rhythm,
+- service presentation,
+- CTA placement,
+- technical visualization.
 
-## Mobile
+In particular, do not preserve the previous architecture-editorial visual language.
 
-Mobile must feel designed specifically for the viewport.
-
-Required transformations:
-
-- hero becomes a deliberate vertical composition,
-- typography scales responsibly,
-- energy system becomes vertical,
-- sticky process becomes stacked,
-- photography crops intentionally,
-- CTAs remain easy to reach,
-- no horizontal overflow,
-- no tiny technical labels,
-- no interactions dependent on hover.
-
-Do not simply stack every desktop column in source order without reconsidering composition.
+A substantial redesign is expected.
 
 ---
 
-# 16. Accessibility & UX
+# 36. Failure Conditions
 
-Maintain:
-- semantic HTML,
-- keyboard navigation,
-- visible focus states,
-- adequate contrast,
-- useful alt text,
-- labelled form controls,
-- accessible accordions,
-- reduced-motion support,
-- sensible tap targets.
+The design is unsuccessful if:
 
-Decorative dot graphics should not create screen-reader noise.
+- it still resembles an architecture magazine,
+- the hero is mostly large serif typography + one rectangular image,
+- large areas of the page appear empty,
+- solar products feel secondary to architecture,
+- the page contains very little useful homeowner information,
+- technical content is tiny or visually insignificant,
+- sections exist mainly as visual pauses,
+- CTA visibility is weak,
+- services feel like labels rather than offerings,
+- the full-page thumbnail appears sparse or unfinished,
+- the page feels like a lightly modified V1/V2,
+- the design copies a benchmark,
+- fabricated company proof is introduced.
 
-Lead generation UX must remain clear despite the editorial art direction.
-
----
-
-# 17. Performance
-
-The visual design should not require a bloated implementation.
-
-Prioritize:
-- optimized responsive images,
-- minimal animation dependencies,
-- native browser capabilities where practical,
-- limited font weights,
-- lazy loading below the fold,
-- stable layout.
-
-Do not sacrifice load performance for decorative animation.
+These are hard failure conditions.
 
 ---
 
-# 18. Implementation Philosophy
+# 37. Success Criteria
 
-The implementation should follow this document faithfully.
+The final design should:
 
-Do not reinterpret the project into:
-- a SaaS website,
-- a dashboard,
-- a tech startup landing page,
-- a generic solar template.
-
-Before introducing a new component pattern, ask:
-
-Does this improve the story, comprehension, trust, or conversion?
-
-If not, do not add it.
-
-Before introducing decoration, ask:
-
-Does this originate from the brand, photography, content, or energy concept?
-
-If not, remove it.
-
----
-
-# 19. Visual Success Criteria
-
-The finished homepage should:
-
-1. feel unmistakably designed for The Solar Co.,
-2. feel more art-directed than the supplied 5-star benchmarks,
-3. retain the useful informational depth the client responded to,
-4. avoid recognizable AI-generated landing-page patterns,
-5. use photography and typography as primary visual tools,
-6. use the sun-dot motif as a coherent brand system,
-7. clearly explain solar without becoming a dashboard,
-8. make requesting a quote obvious,
-9. work equally intentionally on desktop and mobile,
-10. feel credible enough to represent a real premium residential solar company.
+1. immediately communicate residential solar,
+2. clearly communicate what The Solar Co. offers,
+3. feel commercially stronger than the previous submission,
+4. contain useful homeowner information throughout the page,
+5. maintain strong visual density without becoming cluttered,
+6. make Solar and Solar + Battery tangible,
+7. explain how solar works visually,
+8. explain how the home affects system design,
+9. use photography as evidence and aspiration rather than decoration,
+10. maintain strong section-to-section rhythm,
+11. use orange and navy as meaningful visual ingredients,
+12. provide multiple natural conversion opportunities,
+13. feel visually alive through purposeful interaction,
+14. remain strong when motion is disabled,
+15. avoid unsupported company claims,
+16. feel intentionally designed rather than AI-generated,
+17. remain recognizably The Solar Co.,
+18. feel complete enough to represent a real operating solar company,
+19. visually compete with the contest's 4-star references,
+20. improve beyond those references through stronger hierarchy, clarity, brand identity and conversion.
 
 ---
 
-# 20. Delivery Gate
+# 38. Final Direction
 
-Do not consider the implementation complete until:
+Do not design around the question:
 
-- desktop has been visually inspected in-browser,
-- mobile has been visually inspected in-browser,
-- no horizontal overflow exists,
-- typography and line breaks have been manually reviewed,
-- image crops have been manually reviewed,
-- animations have been observed rather than assumed,
-- reduced-motion behaviour works,
-- forms have usable states,
-- all obvious placeholder or fabricated company claims have been removed,
-- the site has been compared against both 5-star references,
-- the result has been checked against the local AntiSlop skills,
-- the final result does not visually resemble a rearranged version of either benchmark.
+> How can this page look premium?
 
-The quality bar is not "technically complete."
+Design around:
 
-The quality bar is:
+> What does a homeowner need to see, understand and trust before requesting a solar quote?
 
-> intentional, branded, credible, polished, and submission-ready.
+Then make that journey visually excellent.
+
+The Solar Co. should feel like:
+
+> a confident residential solar company that makes a technically significant purchase understandable and desirable.
+
+The page should be rich because it contains useful information.
+
+It should be polished because that information has been intentionally designed.
+
+It should be visually exciting because solar, homes, energy and interaction create genuine opportunities for visual storytelling.
+
+Not because empty space, oversized typography or decorative effects are being used to manufacture sophistication.
+
+The final experience should communicate:
+
+> clear offer,
+> useful expertise,
+> desirable solar,
+> confidence,
+> and an obvious next step.
